@@ -1,4 +1,4 @@
-cd ~/Desktop/klusnetcd ~/Desktop/klusnet{
+{
   "firestore": {
     "database": "(default)",
     "location": "europe-west1",
@@ -11,12 +11,6 @@ cd ~/Desktop/klusnetcd ~/Desktop/klusnet{
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
