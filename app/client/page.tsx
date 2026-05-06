@@ -16,11 +16,11 @@ export default function ClientPage() {
           color: "#fff",
           border: "none",
           borderRadius: 8,
-          cursor: "pointer",
+          cursor: "pointer"
         }}
         onClick={() => alert("Створення завдання скоро буде")}
       >
         Створити завдання
       </button>
     </main>
-  );
+  );}
